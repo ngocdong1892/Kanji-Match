@@ -154,7 +154,7 @@ main {
 
 .item.kanji {
 	font-size: 30px;
-	font-weight: 700;
+	/* font-weight: 700; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
