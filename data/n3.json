@@ -1,8 +1,2198 @@
 [
-  {"kanji":"耳","reading":"じ","meaning":"Nhĩ (tai)","vn":"Nhĩ (tai)"},
-  {"kanji":"口","reading":"こう","meaning":"Khẩu (miệng)","vn":"Khẩu (miệng)"},
-  {"kanji":"手","reading":"しゅ","meaning":"Thủ (tay)","vn":"Thủ (tay)"},
-  {"kanji":"足","reading":"そく","meaning":"Túc (chân)","vn":"Túc (chân)"},
-  {"kanji":"力","reading":"りょく","meaning":"Lực (sức lực)","vn":"Lực (sức lực)"},
-  {"kanji":"心","reading":"しん","meaning":"Tâm (trái tim)","vn":"Tâm (trái tim)"}
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Áp suất, áp lực",
+    "vn": "ÁP"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Di chuyển",
+    "vn": "DI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nguyên nhân",
+    "vn": "NHÂN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vĩnh cửu",
+    "vn": "VĨNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kinh doanh",
+    "vn": "DOANH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vệ tinh, phòng vệ",
+    "vn": "VỆ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Mậu dịch",
+    "vn": "DỊCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Lợi ích",
+    "vn": "ÍCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chất lỏng",
+    "vn": "DỊCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Diễn thuyết, diễn xuất",
+    "vn": "DIỄN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phản ứng",
+    "vn": "ỨNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đã qua, dĩ vãng",
+    "vn": "VÃNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Anh đào",
+    "vn": "AN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Ân nhân",
+    "vn": "ÂN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Khả năng",
+    "vn": "KHẢ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Giả thuyết, giả định",
+    "vn": "GIẢ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Giá cả, giá trị",
+    "vn": "GIÁ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Sông",
+    "vn": "HÀ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vượt quá, quá khứ",
+    "vn": "QUÁ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chúc mừng",
+    "vn": "HẠCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Khoái thích",
+    "vn": "KHOÁI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Giải quyết, lý giải",
+    "vn": "GIẢI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nhân cách, tính cách",
+    "vn": "CÁCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chính xác, xác thực",
+    "vn": "XÁC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cái trán, hạn ngạch",
+    "vn": "NGẠCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tập san",
+    "vn": "SAN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cán bộ",
+    "vn": "CÁN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quen, tập quán",
+    "vn": "QUÁN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Con mắt",
+    "vn": "NHÃN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cơ bản",
+    "vn": "CƠ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kí gửi, kí túc",
+    "vn": "KÍ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quy tắc",
+    "vn": "QUY"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kĩ thuật",
+    "vn": "KĨ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chính nghĩa",
+    "vn": "NGHĨA"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phản nghịch",
+    "vn": "NGHỊCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vĩnh cửu",
+    "vn": "CỬU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kì cựu",
+    "vn": "CỰU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cư trú, định cư",
+    "vn": "CƯ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cho phép",
+    "vn": "HỨA"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quốc cảnh, hoàn cảnh",
+    "vn": "CẢNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bình quân",
+    "vn": "QUÂN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nghiêm cấm",
+    "vn": "CẤM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Câu",
+    "vn": "CÚ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quần đảo, quần cư",
+    "vn": "QUẦN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kinh tế, kinh độ",
+    "vn": "KINH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thanh khiết",
+    "vn": "KHIẾT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Sự kiện",
+    "vn": "KIỆN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chứng khoán",
+    "vn": "KHOÁN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hiểm họa, nguy hiểm",
+    "vn": "HIỂM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kiểm tra",
+    "vn": "KIỂM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Giới hạn",
+    "vn": "HẠNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hiện thực, hiện đại",
+    "vn": "HIỆN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Giảm thiểu",
+    "vn": "GIẢM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Sự cố, biến cố",
+    "vn": "CỐ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cá thể, cá nhân",
+    "vn": "CÁ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hộ vệ, bảo hộ",
+    "vn": "HỘ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hiệu quả",
+    "vn": "HIỆU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bề dày",
+    "vn": "HẬU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Canh tác, cày ruộng",
+    "vn": "CANH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Khoáng sản",
+    "vn": "KHOÁNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cấu tạo",
+    "vn": "CẤU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hưng thịnh",
+    "vn": "HƯNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cắt nghĩa",
+    "vn": "GIẢNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hỗn loạn",
+    "vn": "HỖN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kiểm tra",
+    "vn": "TRA"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Làm lại, tái tạo",
+    "vn": "TÁI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tai họa, tai ương",
+    "vn": "TAI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vợ",
+    "vn": "THÊ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hái, chọn nhặt",
+    "vn": "THÁI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quốc tế",
+    "vn": "TẾ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tồn tại",
+    "vn": "TẠI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tiền tài, tài chính",
+    "vn": "TÀI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tội lỗi",
+    "vn": "TỘI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tạp chí, phức tạp",
+    "vn": "TẠP"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Dấm, chua",
+    "vn": "TOAN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tán thành",
+    "vn": "TÁN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nhánh",
+    "vn": "CHI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Ý chí",
+    "vn": "CHÍ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cành cây",
+    "vn": "CHI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thầy giáo",
+    "vn": "SƯ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Của cải, đầu tư",
+    "vn": "TƯ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nuôi",
+    "vn": "TỰ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chỉ thị",
+    "vn": "THỊ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tương tự",
+    "vn": "TỰ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tri thức",
+    "vn": "THỨC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hỏi, chất vấn",
+    "vn": "CHẤT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phố xá",
+    "vn": "XÁ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cảm tạ",
+    "vn": "TẠ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Truyền thụ, trao đi",
+    "vn": "THỤ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Sửa, tu nghiệp",
+    "vn": "TU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nêu ra, thuật ra",
+    "vn": "THUẬT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kĩ thuật, mỹ thuật",
+    "vn": "THUẬT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chuẩn bị",
+    "vn": "CHUẨN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thứ tự, tựa đề",
+    "vn": "TỰ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Mời, vẫy",
+    "vn": "CHIÊU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thừa nhận",
+    "vn": "THỪA"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chứng minh",
+    "vn": "CHỨNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Điều kiện",
+    "vn": "ĐIỀU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trạng thái",
+    "vn": "TRẠNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bình thường",
+    "vn": "THƯỜNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tình cảm",
+    "vn": "TÌNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Dệt vải",
+    "vn": "CHỨC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chức vụ",
+    "vn": "CHỨC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chế độ",
+    "vn": "CHẾ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tính cách",
+    "vn": "TÍNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chính sách, chính trị",
+    "vn": "CHÍNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thế lực",
+    "vn": "THẾ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tinh luyện",
+    "vn": "TINH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chế tạo, chế phẩm",
+    "vn": "CHẾ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tiền thuế",
+    "vn": "THUẾ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trách nhiệm",
+    "vn": "TRÁCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thành tích",
+    "vn": "TÍCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tiếp xúc",
+    "vn": "TIẾP"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thiết lập",
+    "vn": "THIẾT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cái lưỡi",
+    "vn": "THIỆT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cự tuyệt, tuyệt giao",
+    "vn": "TUYỆT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tiền bạc",
+    "vn": "TIỀN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tổ tiên",
+    "vn": "TỔ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nguyên tố, yếu tố",
+    "vn": "TỐ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tổng hợp",
+    "vn": "TỔNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chế tạo",
+    "vn": "TẠO"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hình tượng",
+    "vn": "TƯỢNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tăng lên",
+    "vn": "TĂNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quy tắc",
+    "vn": "TẮC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đo lường",
+    "vn": "TRẮC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phụ thuộc",
+    "vn": "THUỘC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Năng suất",
+    "vn": "SUẤT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tổn hại, hư tổn",
+    "vn": "TỔN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Rút lui",
+    "vn": "THOÁI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cho vay",
+    "vn": "THẢI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trạng thái",
+    "vn": "THÁI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đoàn thể",
+    "vn": "ĐOÀN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Từ chối, đoạn tuyệt",
+    "vn": "ĐOẠN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kiến trúc",
+    "vn": "TRÚC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kéo dài",
+    "vn": "TRƯƠNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đề cử",
+    "vn": "ĐỀ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trình độ",
+    "vn": "TRÌNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thích hợp, thích đáng",
+    "vn": "THÍCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Địch thủ",
+    "vn": "ĐỊCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Truyền thống",
+    "vn": "THỐNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chất đồng",
+    "vn": "ĐỒNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chỉ đạo",
+    "vn": "ĐẠO"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đạo đức",
+    "vn": "ĐỨC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Độc thân, cô độc",
+    "vn": "ĐỘC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trách nhiệm",
+    "vn": "NHIỆM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nhiên liệu",
+    "vn": "NHIÊN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Năng lực",
+    "vn": "NĂNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Xé rách",
+    "vn": "PHÁ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tội phạm",
+    "vn": "PHẠM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phán đoán",
+    "vn": "PHÁN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Xuất bản",
+    "vn": "BẢN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "So sánh",
+    "vn": "TỶ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Màu mỡ",
+    "vn": "PHÌ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phi thường",
+    "vn": "PHI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chuẩn bị",
+    "vn": "BỊ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Túi gạo",
+    "vn": "BIỂU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bình luận",
+    "vn": "BÌNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nghèo đói",
+    "vn": "BẦN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vải",
+    "vn": "BỐ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phụ nữ",
+    "vn": "PHỤ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phú quý",
+    "vn": "PHÚ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vũ khí",
+    "vn": "VŨ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phục hồi",
+    "vn": "PHỤC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phức tạp",
+    "vn": "PHỨC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phật giáo",
+    "vn": "PHẬT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Biên tập",
+    "vn": "BIÊN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Biện luận",
+    "vn": "BIỆN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bảo đảm",
+    "vn": "BẢO"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Mộ phần",
+    "vn": "MỘ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Báo cáo",
+    "vn": "BÁO"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phong phú",
+    "vn": "PHONG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phòng chống",
+    "vn": "PHÒNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Mậu dịch",
+    "vn": "MẬU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bạo lực",
+    "vn": "BẠO"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Sự vụ",
+    "vn": "VỤ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Giấc mơ",
+    "vn": "MỘNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Lạc, mê cung",
+    "vn": "MÊ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bông vải",
+    "vn": "MIÊN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nhập khẩu",
+    "vn": "THÂU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Dư thừa",
+    "vn": "DƯ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Gửi",
+    "vn": "DỰ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bao dung",
+    "vn": "DUNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chiến lược, sơ lược",
+    "vn": "LƯỢC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Lưu lại, lưu trú",
+    "vn": "LƯU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Lãnh đạo",
+    "vn": "LÃNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Khác thường",
+    "vn": "DỊ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Di chúc",
+    "vn": "DI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Khu vực",
+    "vn": "VỰC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vũ trụ",
+    "vn": "VŨ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phản ánh",
+    "vn": "ÁNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kéo dài",
+    "vn": "DUYÊN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Dọc theo, men theo",
+    "vn": "DUYÊN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bản thân, bản ngã",
+    "vn": "NGÃ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tro, hỗ trợ",
+    "vn": "HÔI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Khuếch tán",
+    "vn": "KHUẾCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cải cách",
+    "vn": "CÁCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nội các",
+    "vn": "CÁC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vỡ",
+    "vn": "CÁT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cổ phần",
+    "vn": "CHU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Khô",
+    "vn": "CAN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quyển sách",
+    "vn": "QUYỂN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trông coi, giữ gìn",
+    "vn": "KHÁN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đơn giản",
+    "vn": "GIẢN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nguy hiểm",
+    "vn": "NGUY"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cái bàn",
+    "vn": "KỶ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chỉ huy",
+    "vn": "HUY"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quý tộc",
+    "vn": "QUÝ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nghi vấn",
+    "vn": "NGHI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hấp thu",
+    "vn": "HẤP"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cung cấp",
+    "vn": "CUNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Ngực",
+    "vn": "HUNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quê hương",
+    "vn": "HƯƠNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cần cù",
+    "vn": "CẦN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bắp thịt",
+    "vn": "CÂN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hệ thống",
+    "vn": "HỆ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tôn kính",
+    "vn": "KÍNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cảnh sát",
+    "vn": "CẢNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vở kịch",
+    "vn": "KỊCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cảm kích, khuyến khích",
+    "vn": "KÍCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cái hố",
+    "vn": "HUYỆT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Lụa",
+    "vn": "QUYÊN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quyền lợi",
+    "vn": "QUYỀN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hiến pháp",
+    "vn": "HIẾN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nguyên thủy",
+    "vn": "NGUYÊN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nghiêm khắc",
+    "vn": "NGHIÊM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bản thân",
+    "vn": "KỈ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hô hấp",
+    "vn": "HÔ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nhận",
+    "vn": "NGỘ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hoàng hậu",
+    "vn": "HẬU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hiếu thảo",
+    "vn": "HIẾU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Hoàng đế",
+    "vn": "HOÀNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Màu đỏ",
+    "vn": "HỒNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Rơi, xuống xe",
+    "vn": "GIÁNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thép",
+    "vn": "CƯƠNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Điêu khắc, thái",
+    "vn": "KHẮC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Ngũ cốc",
+    "vn": "CỐC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Xương",
+    "vn": "CỐT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Khó khăn",
+    "vn": "KHỐN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cát",
+    "vn": "SA"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Ngồi",
+    "vn": "TỌA"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Kinh tế",
+    "vn": "TẾ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phán xét",
+    "vn": "TÀI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Sách lược",
+    "vn": "SÁCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quyển sách",
+    "vn": "SÁCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Con tằm",
+    "vn": "TÀM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tột cùng",
+    "vn": "CHÍ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tư nhân",
+    "vn": "TƯ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tư thế",
+    "vn": "TƯ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thị sát",
+    "vn": "THỊ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Từ ngữ",
+    "vn": "TỪ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tạp chí",
+    "vn": "CHÍ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Từ trường",
+    "vn": "TỪ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bắn",
+    "vn": "XẠ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vứt",
+    "vn": "XẢ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đơn vị đo, thước",
+    "vn": "XÍCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trẻ",
+    "vn": "NHƯỢC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cây",
+    "vn": "THỤ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thu nhập",
+    "vn": "THU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tôn giáo",
+    "vn": "TÔNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thành tựu",
+    "vn": "TỰU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quần chúng",
+    "vn": "CHÚNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Làm theo",
+    "vn": "TÙNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trục tung",
+    "vn": "TUNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Co lại",
+    "vn": "SÚC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thành thục",
+    "vn": "THỤC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đơn thuần",
+    "vn": "THUẦN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Xử lý",
+    "vn": "XỬ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chức vụ",
+    "vn": "THỰ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chư hầu, chư quốc",
+    "vn": "CHƯ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trừ bỏ",
+    "vn": "TRỪ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tương lai",
+    "vn": "TƯƠNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vết thương",
+    "vn": "THƯƠNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chướng ngại",
+    "vn": "CHƯỚNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thành lũy",
+    "vn": "THÀNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chưng cất, hấp",
+    "vn": "CHƯNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cái kim, phương châm",
+    "vn": "CHÂM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nhân nghĩa",
+    "vn": "NHÂN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Rủ xuống",
+    "vn": "THÙY"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Suy tính",
+    "vn": "SUY"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đơn vị đo",
+    "vn": "THỐN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thịnh vượng",
+    "vn": "THỊNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thần thánh",
+    "vn": "THÁNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trung thành",
+    "vn": "THÀNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tuyên truyền",
+    "vn": "TUYÊN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chuyên môn",
+    "vn": "CHUYÊN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Dòng sông",
+    "vn": "TUYỀN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tẩy rửa",
+    "vn": "TẨY"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Truyền nhiễm",
+    "vn": "NHIỄM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Từ thiện",
+    "vn": "THIỆN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Diễn tấu",
+    "vn": "TẤU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cửa sổ",
+    "vn": "SONG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Sáng tạo",
+    "vn": "SÁNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trang sức",
+    "vn": "TRANG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tầng nhà",
+    "vn": "TẰNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thao tác",
+    "vn": "THAO"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tàng trữ",
+    "vn": "TÀNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nội tạng",
+    "vn": "TẠNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tồn tại",
+    "vn": "TỒN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tôn kính",
+    "vn": "TÔN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nhà riêng",
+    "vn": "TRẠCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đảm nhận",
+    "vn": "ĐẢM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tìm kiếm",
+    "vn": "THÁM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Sinh ra",
+    "vn": "ĐẢN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Giai đoạn",
+    "vn": "ĐOẠN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Ấm",
+    "vn": "NOÃN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Giá trị",
+    "vn": "TRỊ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vũ trụ",
+    "vn": "TRỤ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trung thực",
+    "vn": "TRUNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trứ danh",
+    "vn": "TRỨ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đại sảnh",
+    "vn": "SẢNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đỉnh cao",
+    "vn": "ĐỈNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thủy triều",
+    "vn": "TRIỀU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thuê",
+    "vn": "NHÂM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đau",
+    "vn": "THỐNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phát triển",
+    "vn": "TRIỂN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thảo luận",
+    "vn": "THẢO"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đảng phái",
+    "vn": "ĐẢNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chất đường",
+    "vn": "ĐƯỜNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Vươn tới",
+    "vn": "GIỚI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Gian nan",
+    "vn": "NAN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Sữa",
+    "vn": "NHŨ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Xác nhận",
+    "vn": "NHẬN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nộp",
+    "vn": "NẠP"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bộ não",
+    "vn": "NÃO"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đảng phái",
+    "vn": "PHÁI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Khấn bái",
+    "vn": "BÁI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cái lưng",
+    "vn": "BỐI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phổi",
+    "vn": "PHẾ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nghệ sĩ",
+    "vn": "BÀI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nhóm",
+    "vn": "BAN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Buổi tối",
+    "vn": "VÃN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phủ nhận",
+    "vn": "PHỦ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phê bình",
+    "vn": "PHÊ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bí mật",
+    "vn": "BÍ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cái bụng",
+    "vn": "PHÚC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Nhưng phấn",
+    "vn": "PHẤN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Xếp hàng",
+    "vn": "TỊNH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bệ hạ",
+    "vn": "BỆ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đóng",
+    "vn": "BẾ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Một mảnh",
+    "vn": "PHIẾN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bổ sung",
+    "vn": "BỔ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trời tối",
+    "vn": "MỘ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quý hiếm",
+    "vn": "BẢO"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Viếng thăm",
+    "vn": "PHỎNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tử vong",
+    "vn": "VONG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Quên",
+    "vn": "VONG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cái gậy",
+    "vn": "BỔNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đếm tờ giấy",
+    "vn": "MAI"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Cái rèm, khai mạc",
+    "vn": "MẠC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bí mật",
+    "vn": "MẬT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Đồng minh",
+    "vn": "MINH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Mô hình",
+    "vn": "MÔ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Phiên dịch",
+    "vn": "DỊCH"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Bưu cục",
+    "vn": "BƯU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Ưu tú",
+    "vn": "ƯU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Ấu thơ",
+    "vn": "ẤU"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Dục vọng",
+    "vn": "DỤC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Ngày mai",
+    "vn": "DỰC"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Rối loạn",
+    "vn": "LOẠN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Trứng",
+    "vn": "NOÃN"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Triển lãm",
+    "vn": "LÃM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Mặt trái",
+    "vn": "LÝ"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Luật pháp",
+    "vn": "LUẬT"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Tạm thời",
+    "vn": "LÂM"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Chiếu sáng",
+    "vn": "LÃNG"
+  },
+  {
+    "kanji": "",
+    "reading": "",
+    "meaning": "Thảo luận",
+    "vn": "LUẬN"
+  }
 ]
