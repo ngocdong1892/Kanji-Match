@@ -1,0 +1,332 @@
+:root {
+	--accent: #ff6b6b;
+	--ok: #28a745;
+	--bad: #dc3545;
+	--bg1: #fff7f2;
+	--card: #fff
+}
+
+html,
+body {
+	height: calc(100vh - 60px);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	/* min-height: 100vh; */
+}
+
+body {
+	/* font-family: Comic Sans MS, "Segoe UI", Roboto, Arial; */
+	margin: 16px;
+	color: #222;
+	background: linear-gradient(180deg, #fff7f2 0%, #fff 60%)
+}
+
+header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 12px
+}
+
+h1 {
+	font-size: 22px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	gap: 8px
+}
+
+h1 .emoji {
+	font-size: 26px
+}
+
+.controls {
+	margin-left: auto;
+	display: flex;
+	gap: 8px;
+	align-items: center
+}
+
+main {
+	flex: 1 1 auto;
+	padding: calc(var(--header-height) + 8px) var(--gutter) 16px var(--gutter);
+	/* keep top padding to avoid header overlap */
+	box-sizing: border-box;
+	overflow: hidden;
+	/* prevent body scrollbar (lists scroll internally) */
+}
+
+/* wrap fills main height */
+.wrap {
+	display: flex;
+	gap: 16px;
+	align-items: stretch;
+	height: 100%;
+}
+
+.col {
+	flex: 1;
+	min-width: 220px;
+	min-width: 0;
+	/* allow children to shrink without forcing body scroll */
+}
+
+/* left narrow, middle flexible, right moderate */
+.col-left {
+	flex: 0 0 140px;
+	/* fixed width for Kanji column */
+	max-width: 360px;
+	min-width: 360px;
+}
+
+.col-middle {
+	flex: 1 1 auto;
+	/* takes remaining space */
+	min-width: 240px;
+	max-width: 700px
+}
+
+.col-right {
+	flex: 0 0 260px;
+	/* fixed width for Matches column */
+	max-width: 500px;
+}
+
+.list {
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	padding: 10px;
+	border-radius: 14px;
+	min-height: 300px;
+	background: linear-gradient(180deg, #fff, #fffefc);
+	max-height: calc(100vh - 170px);
+	/* overflow: auto; */
+	flex: 1 1 auto;
+	min-height: 0;
+}
+
+#leftList {
+	max-height: 770px !important;
+	/* overflow: auto; */
+}
+
+#matchesPanel {
+	max-height: 770px !important;
+}
+
+#rightList {
+	max-height: 770px !important;
+}
+
+
+/* --- compact mode: adjust layout only, keep item sizes unchanged --- */
+.compact .wrap {
+	flex-wrap: wrap;
+}
+
+.compact .col {
+	/* keep columns responsive but do NOT reduce item paddings/font-size */
+	flex: 0 0 48%;
+	min-width: 140px;
+}
+
+.item {
+	padding: 12px;
+	border-radius: 12px;
+	margin: 8px 0;
+	cursor: pointer;
+	background: var(--card);
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+	transition: transform .12s ease, box-shadow .12s
+}
+
+.item:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08)
+}
+
+.item.kanji {
+	font-size: 30px;
+	font-weight: 700;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1.05;
+	letter-spacing: 0.6px
+}
+
+.kanji-main {
+	font-family: 'M PLUS Rounded 1c', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif
+}
+
+.meaning-text {
+	font-size: 18px;
+	line-height: 1.3;
+	color: #222;
+	padding: 6px 4px
+}
+
+.subtext {
+	font-size: 13px;
+	color: #666;
+	margin-top: 6px
+}
+
+.col .item {
+	align-items: flex-start
+}
+
+.item.selected {
+	outline: 2px solid var(--accent);
+	background: linear-gradient(90deg, rgba(43, 138, 239, 0.06), transparent)
+}
+
+.item.disabled {
+	opacity: 0.45;
+	cursor: default
+}
+
+.pairs {
+	margin-top: 12px
+}
+
+.pair {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	padding: 6px 8px;
+	border-radius: 6px;
+	background: #fff;
+	border: 1px solid #eee;
+	margin-bottom: 6px
+}
+
+.pair .remove {
+	margin-left: auto;
+	color: #888;
+	cursor: pointer
+}
+
+.page-controls {
+	display: flex;
+	gap: 8px;
+	align-items: center
+}
+
+button {
+	padding: 10px 14px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	background: linear-gradient(180deg, #fff, #fffefc);
+	cursor: pointer;
+	font-weight: 700
+}
+
+button.primary {
+	background: var(--accent);
+	color: white;
+	border-color: transparent;
+	box-shadow: 0 8px 18px rgba(255, 107, 107, 0.18)
+}
+
+.hint {
+	font-size: 14px;
+	color: #666
+}
+
+.result-correct {
+	color: var(--ok)
+}
+
+.result-wrong {
+	color: var(--bad)
+}
+
+.confetti-container {
+	pointer-events: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	z-index: 9999
+}
+
+.confetti {
+	position: absolute;
+	font-size: 22px;
+	will-change: transform, opacity;
+	animation: confetti 1000ms cubic-bezier(.2, .8, .2, 1) forwards
+}
+
+@keyframes confetti {
+	to {
+		transform: translateY(-240px) rotate(540deg) scale(.8);
+		opacity: 0
+	}
+}
+
+@media (max-width:800px) {
+	.wrap {
+		flex-direction: column
+	}
+
+	.col {
+		width: 100%
+	}
+}
+
+/* Compact mode for small page sizes (10) - reduces padding, font sizes and uses side-by-side compact columns */
+body.compact {
+	margin: 10px;
+}
+
+.compact .list {
+	padding: 8px;
+	min-height: 160px;
+	/* max-height: calc(100vh - 160px) */
+}
+
+.compact .item {
+	padding: 8px;
+	margin: 6px 0
+}
+
+.compact .meaning-text {
+	font-size: 15px
+}
+
+.compact .wrap {
+	gap: 8px
+}
+
+.compact main {
+	display: block
+}
+
+.compact .wrap {
+	display: flex;
+	flex-wrap: wrap
+}
+
+.compact .col {
+	flex: 0 0 48%;
+	min-width: 140px
+}
+
+.compact section {
+	display: flex;
+	gap: 8px
+}
+
+.compact .list.pairs {
+	max-height: none
+}
