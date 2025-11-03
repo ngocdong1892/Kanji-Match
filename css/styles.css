@@ -76,8 +76,6 @@ main {
 
 /* left narrow, middle flexible, right moderate */
 .col-left {
-	/* flex: 0 0 140px; */
-	/* fixed width for Kanji column */
 	flex: 1 1 auto;
 	max-width: 360px;
 	min-width: 360px;
@@ -88,7 +86,6 @@ main {
 
 .col-middle {
 	flex: 1 1 auto;
-	/* takes remaining space */
 	min-width: 240px;
 	max-width: 700px;
 	max-height: calc(100vh - 170px);
@@ -98,12 +95,10 @@ main {
 
 .col-right {
 	flex: 0 0 260px;
-	/* fixed width for Matches column */
 	max-width: 500px;
 }
 
 .list {
-	/* border: 1px solid rgba(0, 0, 0, 0.06); */
 	padding: 10px;
 	border-radius: 14px;
 	min-height: 300px;
@@ -111,7 +106,6 @@ main {
 	max-height: calc(100vh - 170px);
 	overflow: auto;
 	flex: 1 1 auto;
-	/* min-height: 0; */
 }
 
 .reading-text {
@@ -132,10 +126,10 @@ main {
 
 .item {
 	padding: 12px;
-	border-radius: 12px;
 	margin: 8px 0;
 	cursor: pointer;
 	background: var(--card);
+	border-radius: 12px;
 	border: 1px solid rgba(0, 0, 0, 0.06);
 	display: flex;
 	justify-content: space-between;
@@ -164,11 +158,11 @@ main {
 }
 
 .meaning-text {
-	font-size: 20px;
+	/* font-size: 20px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	line-height: 1.05;
+	line-height: 2;
 	letter-spacing: 0.6px;
 	text-transform: capitalize;
 }
