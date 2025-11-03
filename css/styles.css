@@ -15,7 +15,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	/* min-height: 100vh; */
+	min-height: 100vh;
 }
 
 body {
@@ -71,23 +71,29 @@ main {
 .col {
 	flex: 1;
 	min-width: 220px;
-	min-width: 0;
 	/* allow children to shrink without forcing body scroll */
 }
 
 /* left narrow, middle flexible, right moderate */
 .col-left {
-	flex: 0 0 140px;
+	/* flex: 0 0 140px; */
 	/* fixed width for Kanji column */
+	flex: 1 1 auto;
 	max-width: 360px;
 	min-width: 360px;
+	max-height: calc(100vh - 170px);
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	border-radius: 14px;
 }
 
 .col-middle {
 	flex: 1 1 auto;
 	/* takes remaining space */
 	min-width: 240px;
-	max-width: 700px
+	max-width: 700px;
+	max-height: calc(100vh - 170px);
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	border-radius: 14px;
 }
 
 .col-right {
@@ -97,30 +103,21 @@ main {
 }
 
 .list {
-	border: 1px solid rgba(0, 0, 0, 0.06);
+	/* border: 1px solid rgba(0, 0, 0, 0.06); */
 	padding: 10px;
 	border-radius: 14px;
 	min-height: 300px;
 	background: linear-gradient(180deg, #fff, #fffefc);
 	max-height: calc(100vh - 170px);
-	/* overflow: auto; */
+	overflow: auto;
 	flex: 1 1 auto;
-	min-height: 0;
+	/* min-height: 0; */
 }
 
-#leftList {
-	max-height: 770px !important;
-	/* overflow: auto; */
+.reading-text {
+	font-size: 14px;
+	color: gray;
 }
-
-#matchesPanel {
-	max-height: 770px !important;
-}
-
-#rightList {
-	max-height: 770px !important;
-}
-
 
 /* --- compact mode: adjust layout only, keep item sizes unchanged --- */
 .compact .wrap {
@@ -167,17 +164,33 @@ main {
 }
 
 .meaning-text {
-	font-size: 18px;
-	line-height: 1.3;
-	color: #222;
-	padding: 6px 4px
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1.05;
+	letter-spacing: 0.6px;
+	text-transform: capitalize;
 }
 
 .subtext {
 	font-size: 13px;
 	color: #666;
-	margin-top: 6px
+	margin-top: 6px;
+	text-transform: capitalize;
 }
+
+.subtextvn {
+	font-size: 30px;
+	/* font-weight: 700; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1.05;
+	letter-spacing: 0.6px;
+	text-transform: capitalize;
+}
+
 
 .col .item {
 	align-items: flex-start

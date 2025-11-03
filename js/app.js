@@ -1,5 +1,5 @@
 // Config
-let pageSize = 15;
+let pageSize = 10;
 let data = [];
 let currentPage = 0;
 let leftItems = []; // objects with id
@@ -12,7 +12,7 @@ function $(id){return document.getElementById(id)}
 
 function setCompactMode(){
   try{
-    if(pageSize === 15) document.body.classList.add('compact');
+    if(pageSize === 10) document.body.classList.add('compact');
     else document.body.classList.remove('compact');
   }catch(e){/* ignore if DOM not ready */}
 }
@@ -88,7 +88,7 @@ function renderLists(){
     div.className = 'item kanji';
     div.dataset.id = it._idx;
     div.tabIndex = 0;
-    div.innerHTML = `<div class="kanji-main">${it.kanji}</div>`;
+    div.innerHTML = `<div class="kanji-main">${it.kanji}  <span class="reading-text">(${it.reading})</span></div>`;
     const tooltipParts = [];
     if(it.reading) tooltipParts.push('Đọc: ' + it.reading);
     if(it.vn) tooltipParts.push(it.vn);
@@ -104,8 +104,8 @@ function renderLists(){
     div.dataset.id = it._idx;
     div.tabIndex = 0;
     div.innerHTML = `<div class="meaning-text">${it.meaning || ''}</div>`;
-    if(it.reading) div.innerHTML += `<div class="subtext">(${it.reading})</div>`;
-    if(it.vn) div.innerHTML += `<div class="subtext">${it.vn}</div>`;
+    // if(it.reading) div.innerHTML += `<div class="subtext">(${it.reading})</div>`;
+    if(it.vn) div.innerHTML += `<div class="subtextvn">${it.vn}</div>`;
     if([...pairsMap.values()].includes(it._idx)) div.classList.add('disabled');
     div.addEventListener('click', ()=> onSelectRight(it._idx, div));
     right.appendChild(div);
